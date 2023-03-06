@@ -10,15 +10,6 @@ namespace C_Sharp
 {
     public class BankAccount
     {
-       /* Fields */
-        public string AccountNumber { get; set; }
-        public string AccountHolderName { get; set; }
-        public decimal AccountBalance { get; set; }
-        public string AccountPassword { get; set; }
-
-        private static int accountNumberSeed = 1234567890;
-
-
 
         /* Methods */
         public StringBuilder createAccount(string username, string password, string p=null)
