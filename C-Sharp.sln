@@ -3,15 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C-Sharp", "C-Sharp\C-Sharp.csproj", "{21A45F6F-D3B4-4849-AD5B-C7CF8BE76235}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhileSwitchAndIFStatement", "C-Sharp\WhileSwitchAndIFStatement.csproj", "{21A45F6F-D3B4-4849-AD5B-C7CF8BE76235}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Attributes", "Attributes\Attributes.csproj", "{529FF8C2-6E3C-4EB1-BF14-F0A53FF73170}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company", "Company\Company.csproj", "{D3490B5F-F74C-43CF-8E75-BAE44E1A6077}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodsProperties", "Company\MethodsProperties.csproj", "{D3490B5F-F74C-43CF-8E75-BAE44E1A6077}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessModifiers", "AccessModifiers\AccessModifiers.csproj", "{EEA69428-49EA-4491-BDF6-1BC40FCB3E26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Overriding", "Overriding\Overriding.csproj", "{57C4F872-0010-4582-AC1F-E0D8E043CE68}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverridingPolymoprhism", "Overriding\OverridingPolymoprhism.csproj", "{57C4F872-0010-4582-AC1F-E0D8E043CE68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Absract class", "Absract class\Absract class.csproj", "{BBF18444-7EB8-4D24-83BE-86FCA43FF1C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "ConsoleApp2\Interfaces.csproj", "{DAC76B0F-83B2-42D7-BA63-7C245EC6D66A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Static", "Static\Static.csproj", "{3DE8E482-F1FA-43FF-BD31-F0D4776A4E5B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +45,18 @@ Global
 		{57C4F872-0010-4582-AC1F-E0D8E043CE68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57C4F872-0010-4582-AC1F-E0D8E043CE68}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57C4F872-0010-4582-AC1F-E0D8E043CE68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBF18444-7EB8-4D24-83BE-86FCA43FF1C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBF18444-7EB8-4D24-83BE-86FCA43FF1C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBF18444-7EB8-4D24-83BE-86FCA43FF1C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBF18444-7EB8-4D24-83BE-86FCA43FF1C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAC76B0F-83B2-42D7-BA63-7C245EC6D66A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAC76B0F-83B2-42D7-BA63-7C245EC6D66A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAC76B0F-83B2-42D7-BA63-7C245EC6D66A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAC76B0F-83B2-42D7-BA63-7C245EC6D66A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DE8E482-F1FA-43FF-BD31-F0D4776A4E5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DE8E482-F1FA-43FF-BD31-F0D4776A4E5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DE8E482-F1FA-43FF-BD31-F0D4776A4E5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DE8E482-F1FA-43FF-BD31-F0D4776A4E5B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

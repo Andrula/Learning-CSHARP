@@ -10,27 +10,38 @@ namespace Overriding
     {
         static void Main(string[] args)
         {
-            /*Overriding and polymoprishui*/
+            /*Overriding*/
 
-            Dog Labrador = new Dog();
-            Cat Persian = new Cat();
+            Dog labrador = new Dog();
+            Cat persian = new Cat();
+            Fish goldfish = new Fish();
 
-            Labrador.Speak();
-            Persian.Speak();
+            //labrador.Speak();
+            //persian.Speak();
+            //goldfish.Speak();
+
+            Animal[] animals = {labrador,persian,goldfish};
+
+            foreach (Animal animal in animals)
+            {
+                animal.Speak();
+            }
+
+
             Console.ReadLine(); 
         }
     }
 
     public class Animal
     {
-        public virtual void Speak ()
+        public virtual void Speak () // Virtual makes it possible for a method or proprerty etc. to be overriden in a derived class.
         {
-            Console.WriteLine("Mææh");
+            Console.WriteLine("Animal sound");
         }
     }
 
     public class Dog : Animal
-    {   
+    {
         public override void Speak()
         {
             Console.WriteLine("Vov!");
@@ -42,6 +53,14 @@ namespace Overriding
         public override void Speak()
         {
             Console.WriteLine("Miav!");
+        }
+    }
+
+    public class Fish : Animal
+    {
+        public override void Speak()
+        {
+            Console.WriteLine("Plop!");
         }
     }
 }
